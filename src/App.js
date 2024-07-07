@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './Homepage';
 import GamesPage from './GamesPage';
 import BookingsPage from './BookingsPage';
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/KIV1">
+    <Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Homepage />} />
