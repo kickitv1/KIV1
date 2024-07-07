@@ -1,0 +1,155 @@
+
+.gamesPage {
+    font-family: 'Georama', sans-serif; 
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; 
+    background: #FFFFFF;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #424A44; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img, .userIcon img {
+    width: 100px;
+    height: 100px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButton, .nav-link-custom { 
+    background: #AE1111;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; 
+    border-radius: 5px; 
+}
+
+.navButton.active, .nav-link-custom.active {
+    background: #882222; 
+}
+
+
+.slider {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-nav {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.nav-dot.active {
+    background-color: #fff;
+}
+
+
+.dropInGames, .leagues {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.gamesHeader, .leaguesHeader {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters {
+    text-align: left;
+    padding: 0 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Footer Styles */
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #424A44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.termsLinks a, .contactInfo span, .socialIcon a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.followUs {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.contactInfo {
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
